@@ -25,6 +25,7 @@
         android:textColor="@color/black"
         android:layout_toStartOf="@id/label_priority"
         tools:text="Example 1 MVVVVVVMMVVVVVVMMVVVVVVMMVVVVVVMMVVVVVVMMVVVVVVMMVVVVVVMMVVVVVVM"/>
+
     <ImageView
         android:id="@+id/label_priority"
         android:layout_width="wrap_content"

@@ -1,7 +1,8 @@
-package com.mvvm.todo
+package com.mvvm.todo.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mvvm.todo.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

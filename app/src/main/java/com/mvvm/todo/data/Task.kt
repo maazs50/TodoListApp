@@ -4,6 +4,7 @@ import android.os.Parcelable
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 import java.text.DateFormat
+
 @Parcelize
 data class Task(
     val name: String,
