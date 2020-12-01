@@ -1,11 +1,13 @@
 package com.mvvm.todo.data
 
 import android.os.Parcelable
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 import java.text.DateFormat
 
 @Parcelize
+@Entity(tableName = "task_table")
 data class Task(
     val name: String,
     val important: Boolean = false,
